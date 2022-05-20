@@ -1,0 +1,14 @@
+com/soundandsoulful/BuildConfig.java
+ com.soundandsoulful.BuildConfig
+com/soundandsoulful/ReactNativeFlipper.java
+ com.soundandsoulful.ReactNativeFlipper
+ com.soundandsoulful.ReactNativeFlipper$1
+ com.soundandsoulful.ReactNativeFlipper$2
+ com.soundandsoulful.ReactNativeFlipper$2$1
+com/soundandsoulful/MainActivity.java
+ com.soundandsoulful.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/soundandsoulful/MainApplication.java
+ com.soundandsoulful.MainApplication
+ com.soundandsoulful.MainApplication$1
