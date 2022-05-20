@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Abhishek\\Desktop\\SoundApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "D:\\Allied Tech\\SoundApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Abhishek\\.gradle\\caches\\transforms-3\\b75bb2899bc021cdb141ef1d8a001c42\\transformed\\appcompat-1.3.0\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Mohit\\.gradle\\caches\\transforms-3\\b75bb2899bc021cdb141ef1d8a001c42\\transformed\\appcompat-1.3.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

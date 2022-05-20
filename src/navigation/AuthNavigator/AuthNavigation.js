@@ -1,10 +1,10 @@
 import * as React from 'react'
 import { createStackNavigator } from '@react-navigation/stack'
-import Login from '../../container/Auth/Login';
 import SpalshScreen from '../../container/Auth/SpalshScreen';
+import Login from '../../container/Auth/Login';
 import SignUp from '../../container/Auth/SignUp';
 import IntroApp from '../../container/Auth/IntroApp';
-import Route from '../HomeNavigator/Route';
+// import Route from '../HomeNavigator/Route';
 
 const Stack = createStackNavigator();
 
@@ -23,7 +23,7 @@ function AuthNavigation(props) {
                     headerShown: false
                 }}
                 name="Login" component={Login} />
-            <Stack.Screen
+                <Stack.Screen
                 options={{
                     headerShown: false
                 }}
@@ -33,11 +33,11 @@ function AuthNavigation(props) {
                     headerShown: false
                 }}
                 name="IntroApp" component={IntroApp} />
-            <Stack.Screen
+            {/* <Stack.Screen
                 options={{
                     headerShown: false
                 }}
-                name="Route" component={Route} />
+                name="Route" component={Route} /> */}
         </Stack.Navigator>
     )
 }
