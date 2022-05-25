@@ -27,6 +27,10 @@ import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 import com.swmansion.rnscreens.RNScreensPackage;
 // react-native-sound
 import com.zmxv.RNSound.RNSoundPackage;
+// react-native-splash-screen
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
+// react-native-svg
+import com.horcrux.svg.SvgPackage;
 
 public class PackageList {
   private Application application;
@@ -79,7 +83,9 @@ public class PackageList {
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
-      new RNSoundPackage()
+      new RNSoundPackage(),
+      new SplashScreenReactPackage(),
+      new SvgPackage()
     ));
   }
 }

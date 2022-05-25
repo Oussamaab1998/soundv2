@@ -1,45 +1,50 @@
+//---------- imports
+
+// react
 import * as React from 'react'
 import { createStackNavigator } from '@react-navigation/stack'
-import SpalshScreen from '../../container/Auth/SpalshScreen';
+
+// components
 import Login from '../../container/Auth/Login';
 import SignUp from '../../container/Auth/SignUp';
 import IntroApp from '../../container/Auth/IntroApp';
-// import Route from '../HomeNavigator/Route';
 
+// global stack veriable
 const Stack = createStackNavigator();
 
+//---------- main app / component
+
 function AuthNavigation(props) {
+
+    //---------- return main view
+
     return (
         <Stack.Navigator
-            initialRouteName={'SpalshScreen'}
+            initialRouteName={'Login'}
+            options={{ headerShown: false }}
         >
-            <Stack.Screen
-                options={{
-                    headerShown: false
-                }}
-                name="SpalshScreen" component={SpalshScreen} />
+
             <Stack.Screen
                 options={{
                     headerShown: false
                 }}
                 name="Login" component={Login} />
-                <Stack.Screen
+            <Stack.Screen
                 options={{
                     headerShown: false
                 }}
                 name="SignUp" component={SignUp} />
+
             <Stack.Screen
                 options={{
                     headerShown: false
                 }}
                 name="IntroApp" component={IntroApp} />
-            {/* <Stack.Screen
-                options={{
-                    headerShown: false
-                }}
-                name="Route" component={Route} /> */}
+
         </Stack.Navigator>
     )
 }
+
+//---------- export component
 
 export default AuthNavigation
