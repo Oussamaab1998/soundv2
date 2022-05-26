@@ -14,7 +14,6 @@ import SplashScreen from 'react-native-splash-screen'
 // helper
 import NavigationService from './src/navigation/NavigationService';
 
-
 //---------- main app / component
 
 const App = () => {

@@ -35,7 +35,6 @@ function Login({ navigation }) {
     useEffect(() => {
 
 
-        alert(0)
         console.log('========================================')
         console.log('login data pocket :', dataPocket)
         console.log('========================================')
